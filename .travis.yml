@@ -1,0 +1,9 @@
+language: csharp
+solution: Repeater.ASP.sln
+dist: trusty
+mono: none
+dotnet: 2.1.300
+script:
+  - cd Repeater.ASP
+  - dotnet restore
+  - dotnet build
